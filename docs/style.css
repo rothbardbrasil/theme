@@ -1,0 +1,15 @@
+footer::before {
+  opacity: 0.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content img:not(.alignright), .content iframe {
+  width: 100%;
+}
+
+.content img.alignright {
+  float: right;
+}

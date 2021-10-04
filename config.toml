@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "http://localhost"
+
+default_language = "en"
+compile_sass = true
+title = "Lorem Ipsum"
+description = "Sed sed nisi sit amet velit interdum imperdiet non vel."
+generate_feed = false
+output_dir = "docs"
+
+taxonomies = [
+		{name = "categories", paginate_by = 10},
+		{name = "tags", paginate_by = 10},
+		{name = "authors", paginate_by = 10},
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+email = 'test@theme.com'
+
+logo = 'logo.png'
+banner = 'banner.png'
+footer_bg = 'footer.jpeg'
+
+social_links = [
+	{title = 'Facebook', icon = 'facebook-f', link = 'https://www.facebook.com/RothbardBr'},
+	{title = 'Instagram', icon = 'instagram',link = 'https://www.instagram.com/instituto_rothbard/'},
+	{title = 'Twitter', icon = 'twitter', link = 'https://twitter.com/rothbard_brasil'},
+	{title = 'YouTube', icon = 'youtube', link = 'https://www.youtube.com/user/misesbrasil'}
+]
+
+navbar = [
+	{title = 'Google', link = 'https://www.google.com', external = true},
+	{title = 'Articles', link = '', external = false}
+]
